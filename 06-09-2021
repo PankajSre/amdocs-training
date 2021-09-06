@@ -1,0 +1,138 @@
+1. Java Fundamentals
+2. Agile methodology & Web application fundamentals
+3. SQL & PL/SQL
+4. Spring Framework
+5. Web Services(SOAP & REST)
+6. Junit Testing Framework(Introduction to Testing)[TDD & BDD]
+7. DevOps[Git, Jenkins, Docker]
+8. Cloud Services[AWS, GCP, Azure]
+9. Project
+10. Project Presentation
+
+
+Cloud lab:
+=========
+
+JDK
+Eclipse IDE
+
+class Test {
+// declaration & initialization should at the same line
+final int SALARY;
+// constructor
+Test() {
+   SALARY = 34000;
+}
+}
+
+class Hello {
+
+final public void display() {
+    // statements
+}
+}
+
+class Person extends Hello {
+// Not allowed
+public void display() {
+    // statements
+}
+
+}
+
+static members[method, variable]
+
+
+class Test {
+  int num1 = 10;
+  static int num2 = 20;
+
+}
+
+ members:
+    -- static
+	-- non-static [Object Members]
+
+
+Company == > 20 Thousand(Amdocs)
+
+class Employee {
+  private int employeeId;
+  ---
+  
+  
+  private static String companyName;
+ 
+}
+
+String class:
+============
+
+It is immutable class in java.
+
+javap java.lang.String
+
+To compare String objects:
+      -- (==) operator-> it compares the address of the Objects, if both the object are refering to the same memory location, then it will return true else false.
+	  
+	  -- public boolean equals(String str)
+	            It will compare the values occupied by the objects
+				
+StringBuffer/StringBuilder
+    These classes are mutable
+	
+	newCapacity = oldCapacity * 2 + 2;
+	
+	
+OOPs(Obejct Oriented Programming):
+------------------------------------
+
+  -- class
+           contains
+		      -- state(Properties)
+			  -- Behaviour(methods)
+  -- Object
+        -- state/Properties
+		-- Behaviour
+		-- unique identity
+  -- Inheritance[Code Reusability]
+        inheriting the non private properties from parent class to the child class. We use "extends" to show the parent-child relationship
+  -- Polymorphism
+       If a Single object behaves differently in different situations and provies different results. That is called Polymorphism.
+	   
+	   -- static Polymorphism(method overloading)
+	         Wreiting the same method multiple times but with 
+			 --different arguments
+			           -- Number of Arguments
+					   -- Sequence of arguments
+			 
+			 
+	   -- Dynamic Polymorphism(method overriding)
+	         it will be achieved in different classes and the classes should have Parent-child relationship.
+			 The methods should be of same signature but body can differ.
+			 
+  -- Encapsulation
+       Information Hiding
+  -- Abstraction
+       Hide the Information
+	   
+	   
+Array:
+=====
+    It is a collection of similar type of data elements stored in contiguous memory locations. 	
+
+10:30-11:30 
+
+doubt & project discussion	
+===========================
+
+
+SQL(Any database) 
+
+backend (tables)
+
+
+https://www.github.com/pankajsre/amdocs-training
+   
+
+
